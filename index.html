@@ -9,8 +9,32 @@
   <script src="https://kit.fontawesome.com/cea4f864f2.js" crossorigin="anonymous"></script>
   <title>hDC Host</title>
 </head>
-<body>
-  <h1>hDC Host</h1>
-  <i class="fa-sharp fa-solid fa-house"></i>
+<body onload="loader()">
+  <div id="container">
+    <h1>hDC Host</h1>
+    <i class="fa-sharp fa-solid fa-house"></i>
+  </div>
+
+  <div class="loader">
+    <div class="loader__bar"></div>
+    <div class="loader__bar"></div>
+    <div class="loader__bar"></div>
+    <div class="loader__bar"></div>
+    <div class="loader__bar"></div>
+    <div class="loader__ball"></div>
+  </div>
+
+  <script>
+    let time;
+
+    function loader() {
+      time = setTimeout(showPage, 3000);
+    }
+
+    function showPage() {
+      document.getElementsByClassName("loader")[0].style.display = "none";
+      document.getElementById("container").style.display = "block";
+    }
+  </script>
 </body>
 </html>
