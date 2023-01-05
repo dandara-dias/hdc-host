@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Encode+Sans:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@800&family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Encode+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 @keyframes ball {
   0% {
@@ -165,6 +170,14 @@ body, textarea {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
+footer {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-family: 'Caveat';
+  font-size: 26px;
+}
+
 h1, h2, h3, h4 {
   color: var(--secondary);
 }
@@ -175,6 +188,52 @@ nav {
 
 p {
   color: var(--secondary);
+}
+
+.contact-container {
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  font-family: 'Work Sans';
+}
+
+.contact-container h4 {
+  font-size: 36px;
+}
+
+.contact-container input, .contact-container textarea {
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid var(--secondary);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-container input[type=submit] {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.contact-container p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.contact-container textarea {
+  display: block;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 468px;
+  height: 150px;
+  resize: none;
 }
 
 .default-btn {
@@ -403,6 +462,7 @@ p {
 .pricing-container {
   padding-bottom: 5em;
   text-align: center;
+  font-family: 'Signika Negative';
 }
 
 .pricing-container h3 {
@@ -412,6 +472,49 @@ p {
 
 .pricing-container p {
   font-size: 20px;
+}
+
+.searchdomain-container {
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 5em 0;
+  font-family: 'Ubuntu';
+}
+
+.searchdomain-container h3 {
+  color: var(--primary);
+  font-size: 42px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.searchdomain-container input {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 5px;
+}
+
+.searchdomain-container input[type=submit] {
+  background-color: var(--extra);
+  padding: 15px 30px;
+  color: var(--primary);
+  font-size: 24px;
+}
+
+.searchdomain-container input[type=text] {
+  margin-bottom: 25px;
+  width: 60%;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.searchdomain-container p {
+  color: var(--details);
+  font-size: 24px;
+  margin-bottom: 25px;
 }
 
 .specialties-container {
@@ -436,10 +539,12 @@ p {
 
 .specialties-container ul li h2 {
   margin-bottom: 25px;
+  font-family: 'Asul';
 }
 
 .specialties-container ul li p {
   line-height: 24px;
+  font-family: 'Asul';
 }
 
 #container {
