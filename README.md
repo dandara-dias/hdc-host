@@ -1,6 +1,6 @@
 <h1 align="center">< hDC Host /></h1>
 
-<p align="center">🗄️ Aplicação responsável pela página de hospedagem hDC Host 🗄️ Em construção 🚧</p>
+<p align="center">🗄️ Aplicação responsável pela página de hospedagem hDC Host 🗄️ Concluído ✔️</p>
 
 <p align="center">
 • <a href="#-sobre-o-projeto">Sobre</a> •
